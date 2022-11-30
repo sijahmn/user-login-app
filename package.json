@@ -5,8 +5,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
-    "dev": "ts-node-dev src/app.ts",
-    "test": "jest"
+    "dev": "ts-node-dev src/app.ts"
   },
   "dependencies": {
     "@types/jest": "^29.2.3",
