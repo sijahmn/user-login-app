@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 //env confirigation
 dotenv.config()
 
+
 //mongodb connection
 export const mongoConnection = async () => {
     try {
