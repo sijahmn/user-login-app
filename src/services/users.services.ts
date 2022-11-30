@@ -15,7 +15,7 @@ export class UserService {
     public getUser = async (id: string) => {
         return User.findById(id).select('-password')
     }
-    // Update one user data in db
+    // Update one user data in database
     public updateUser = async (id: string, payload: IUser) => {
         await User.findByIdAndUpdate(id, { $set: payload })
         return this.getUser(id)
